@@ -1,4 +1,5 @@
-## CodeNexus :laptop:
+## CodeNexus :laptop
+:
 
 This is a fullstack web app built on Django a python framework
 
@@ -23,4 +24,4 @@ Create a virtual environment
 Activate the virtual environment
 
 ## Starting the App :rocket:
-Start by running the development server
+Start by running the development server to the desired port.
