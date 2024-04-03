@@ -21,3 +21,7 @@ def room(request, pk):
     context = {'rooms': room}
     
     return render(request, 'base/room.html')
+
+
+def study(self):
+    return render(request, 'base/study.html')
