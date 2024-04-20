@@ -11,10 +11,10 @@ class Topic(models.Model):
 
 class Room(models.Model):
     #host =
-    #topic = 
+    #topic = models.ForeignKey(Topic, on_delete=models.CASCADE)
     name = models.CharField(max_length=200)
     description = models.TextField(blank=True, null=True)
-    #participants =
+    #participants = models.ManyToManyField(User, blank=True)
     updated = models.DateTimeField(auto_now=True)
     created = models.DateTimeField(auto_now_add=True)
 
